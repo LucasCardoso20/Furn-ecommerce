@@ -1,0 +1,56 @@
+@import '../../styles/index.scss';
+
+.featured-products {
+    margin: 5rem 0 5rem 0;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.featured-products-title {
+    font-size: $font-size-title;
+    text-transform: uppercase;
+}
+
+.featured-products-text {
+    color: $gray-color;
+    font-size: $font-size-text;
+    line-height: 1.6;
+}
+
+.products-container {
+    display: flex;
+    gap: 4rem;
+    margin: 2rem;
+    text-align: center;
+
+    article {
+        border: 1px solid $border-color;
+        padding: 0 1.5rem;
+
+        &:hover {
+            h3 {
+                text-decoration: underline;
+                transition: 0.3s;
+            }
+        }
+
+        h3 {
+            font-size: $font-size-text;
+            font-weight: 500;
+            margin: 2rem 0;
+        }
+
+        h5 {
+            color: $price-color;
+            font-size: $font-size-price;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.rec-carousel-wrapper{
+    padding: 0 2rem;
+}

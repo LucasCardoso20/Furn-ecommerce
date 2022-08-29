@@ -1,0 +1,82 @@
+@import '../../styles/index.scss';
+
+.socials-banner {
+    padding: 2rem 2rem 2rem 4rem;
+}
+
+.socials-banner-container {
+    display: flex;
+}
+
+.socials-content-container {
+    width: 30%;
+    padding-right: 2rem;
+
+    span {
+        z-index: 100;
+        bottom: 2.7rem !important;
+    }
+
+    h2 {
+        font-size: $font-size-title;
+        line-height: 1.2;
+    }
+
+    p {
+        color: $gray-color;
+        font-size: $font-size-text;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.socials-container-images {
+    display: flex;
+    width: 100%;
+
+    .container-img {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .socials-content-container {
+        width: 40%;
+        padding-right: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .socials-banner {
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+    .socials-banner-container {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .socials-content-container {
+        width: 60%;
+        padding-bottom: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .socials-banner {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .socials-content-container {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .socials-container-images {
+        flex-direction: column;
+
+        span{
+            width: 100% !important;
+        }
+    }
+    
+}

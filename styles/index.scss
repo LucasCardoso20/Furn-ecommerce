@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$main-font: 'Poppins', sans-serif;
+
+//colors
+
+$main-color: #f98e5e;
+$second-color: #f2e1d9;
+$third-color: #1d2547;
+$white-color: #fff;
+$gray-color: #646D77;
+$gray-text-color: #C2C5DB;
+$black-color: #000;
+$span-color: #7f85a8;
+
+
+$hover-color: #FD8F5F;
+$border-color: rgb(247 247 247);
+$price-color: #670000;
+$services-color: #2b2b2b;
+
+//font sizes 
+
+$font-size-biggest: 70px;
+$font-size-title: 36px;
+$font-size-big: 26px;
+$font-size-price: 20px;
+$font-size-text: 16px;
+$font-size-menu: 15px;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $main-font;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.primary-btn {
+  padding: 1rem 3rem;
+  color: white;
+  background-color: $main-color;
+  border: none;
+  font-size: $font-size-menu;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+.second-btn {
+  padding: 1rem 3rem;
+  color: $main-color;
+  background-color: transparent;
+  border: 1px solid $main-color;
+  font-size: $font-size-menu;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $main-color;
+    color: white;
+    transition: 0.3s; 
+  }
+}
+
+

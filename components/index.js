@@ -1,0 +1,7 @@
+export { default as Navbar } from './Navbar/Navbar'
+export { default as Hero } from './Hero/Hero'
+export { default as FilteredProducts } from './FilteredProducts/FilteredProducts'
+export { default as BannerFurniture } from './BannerFurniture/BannerFurniture'
+export { default as SocialsBanner } from './SocialsBanner/SocialsBanner'
+export { default as Footer } from './Footer/Footer'
+export {default as Layout} from './Layout/Layout'
